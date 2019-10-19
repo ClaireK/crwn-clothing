@@ -40,7 +40,7 @@ class SignIn extends React.Component {
 
   render() {
     return (
-      <div className="sign-in">
+      <section className="sign-in">
         <h2>I already have an account</h2>
         <span>Sign in with your email and password</span>
 
@@ -71,7 +71,7 @@ class SignIn extends React.Component {
             </CustomButton>
           </div>
         </form>
-      </div>
+      </section>
     );
   }
 }
